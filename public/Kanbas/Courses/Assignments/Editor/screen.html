@@ -1,0 +1,142 @@
+<html>
+
+<head></head>
+
+<body>
+  <table width="100%">
+    <tbody>
+      <tr>
+        <td valign="top">
+          <ul>
+            <li><a href="/Kanbas/Account/Profile/screen.html"> Account</a></li>
+            <li>
+              <a href="/Kanbas/Dashboard/screen.html">Dashboard</a>
+            </li>
+            <li>
+              <a href="/Kanbas/Courses/Home/screen.html">Courses</a>
+            </li>
+            <li>
+              <a href="/Kanbas/Calendar/index.html">Calendar</a>
+            </li>
+            <li><a href="/Kanbas/Inbox/index.html">Inbox</a></li>
+            <li><a href="/Kanbas/History/index.html">History</a></li>
+            <li><a href="/Kanbas/Studio/index.html">Studio</a></li>
+            <li><a href="/Kanbas/Commons/index.html">Commons</a></li>
+            <li><a href="/Kanbas/Help/index.html">Help</a></li>
+          </ul>
+        </td>
+        <td valign="top">
+          <ul>
+            <li>
+              <a href="/Kanbas/Courses/Home/screen.html"> Home</a>
+            </li>
+            <li><a href="/Kanbas/Courses/Modules/screen.html"> Modules</a></li>
+            <li><a href="/Kanbas/Courses/Piazza/index.html"> Piazza</a></li>
+            <li><a href="/Kanbas/Courses/ZoomMeetings/index.html">Zoom Meetings</li>
+            <li>
+              <a href="/Kanbas/Courses/Assignments/screen.html"> Assignments</a>
+            </li>
+            <li><a href="/Kanbas/Courses/Quizzes/index.html"> Quizzes</a></li>
+            <li><a href="/Kanbas/Courses/Grades/screen.html"> Grades</a></li>
+            <li><a href="/Kanbas/Courses/People/index.html"> People</a></li>
+            <li><a href="/Kanbas/Courses/PanoptoVideo/index.html"> Panopto Video</a></li>
+            <li><a href="/Kanbas/Courses/Discussions/index.html"> Discussions</a></li>
+            <li><a href="/Kanbas/Courses/Announcements/index.html"> Announcements</a></li>
+            <li><a href="/Kanbas/Courses/Pages/index.html"> Pages</a></li>
+            <li><a href="/Kanbas/Courses/Files/index.html"> Files</a></li>
+            <li><a href="/Kanbas/Courses/Rubrics/index.html"> Rubrics</a></li>
+            <li><a href="/Kanbas/Courses/Outcomes/index.html"> Outcomes</a></li>
+            <li><a href="/Kanbas/Courses/Collaborations/index.html"> Colaborations</a></li>
+            <li><a href="/Kanbas/Courses/Syllabus/index.html"> Syllabus</a></li>
+            <li><a href="/Kanbas/Courses/Settings/index.html"> Settings</a></li>
+          </ul>
+        </td>
+        <td valign="top">
+          <form action="/Kanbas/Courses/Assignments/screen.html">
+            <select>
+              <option>Edit</option>
+              <option>Speed Grader</option>
+              <option>Duplicate</option>
+              <option>Delete</option>
+              <option>Move To...</option>
+              <option>Send To...</option>
+              <option>Copy To...</option>
+              <option>Share to Commons</option>
+            </select>
+
+            <hr />
+
+            <h3>Assignment Name</h3>
+            <input type="text" name="wd-assignment-name" value="A1 - ENV + HTML" /><br /><br />
+
+            <label>Assignment Description</label><br />
+            <textarea name="wd-assignment-description" rows="4" cols="50">
+              This is the assignment description.
+              </textarea><br /><br />
+
+            <label>Points</label><br />
+            <input type="number" name="wd-assignment-points" value="100" min="0" max="100" /><br /><br />
+
+            <label>Assignment Group</label><br />
+            <select name="wd-assignment-group">
+              <option selected>ASSIGNMENTS</option>
+              <option>QUIZ</option>
+              <option>EXAM</option>
+              <option>PROJECT</option>
+            </select><br /><br />
+
+            <label>Display Grade as</label><br />
+            <select name="wd-assignment-grade-display">
+              <option selected>Points</option>
+              <option>Percentage</option>
+              <option>Complete/Incomplete</option>
+              <option>Letter Grade</option>
+              <option>Not Graded</option>
+            </select><br /><br />
+
+            <label>Submission Type</label><br />
+            <select>
+              <option>Online</option>
+              <option>Physical</option>
+            </select><br /><br />
+
+            <label>Online Entry Options</label><br />
+            <input type="checkbox" name="wd-submission-type" value="TEXT" />
+            <label>Text Entry</label> <br />
+            <input type="checkbox" name="wd-submission-type" value="WEBSITE" />
+            <label>Website URL</label> <br />
+            <input type="checkbox" name="wd-submission-type" value="MEDIA" />
+            <label>Media Recordings</label> <br />
+            <input type="checkbox" name="wd-submission-type" value="ANNOTATION" />
+            <label>Student Annotation</label> <br />
+            <input type="checkbox" name="wd-submission-type" value="FILE" />
+            <label>File Uploads</label> <br /><br />
+
+            <label>Assign</label><br />
+            <label>Assign to</label><br />
+            <select>
+              <option>Everyone</option>
+              <option>Everyone Else</option>
+              <option>Individual</option>
+              <option>Section</option>
+              <option>Group</option>
+            </select><br /><br />
+
+            <label>Due:</label><br />
+            <input type="date" name="wd-assignment-due-date" value="2021-01-01" /><br />
+
+            <label>Available from:</label><br />
+            <input type="date" name="wd-assignment-available-date" value="2021-01-01" /><br />
+
+            <label>Until:</label><br />
+            <input type="date" name="wd-assignment-available-until-date" value="2021-01-01" /><br /><br />
+
+            <button>Cancel</button><button>Save</button>
+          </form>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
