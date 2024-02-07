@@ -1,0 +1,76 @@
+.wd-modules,
+.wd-modules * {
+  border-radius: 0%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#wd-sandwich-menu {
+    height: auto;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+#wd-sandwich-menu.show {
+    transform: translateX(0);
+}
+.collapse.width {
+    width: 0;
+    transition: width 0.4s ease;
+}
+.collapse.width.show {
+    width: 200px; /* Adjust this width to your preference */
+}
+
+#wd-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 8%;
+    padding: 0 10px;
+    margin-bottom: 2%;
+}
+#wd-header i, #wd-header p {
+    margin-right: 10px;
+}
+#wd-header p {
+    flex-grow: 1;
+    text-align: center;
+}
+
+
+.wd-modules {
+  margin: 5px;
+}
+
+.wd-modules > li {
+  background-color: lightgray;
+  border: 1px solid gray !important;
+  border-left: none !important;
+}
+
+.wd-modules > li > div {
+  padding: 6px;
+  border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+  padding: 5px;
+  border-top: 1px solid gray !important;
+  border-left: 2px solid green;
+}
+
+.subheadings{
+    padding-left: 5px;
+}
+
+li.list-group-item > span:not(.fa) {
+    padding-left: 30px;
+}
+
+.wd-modules > li {
+  margin-bottom: 20px;
+}
