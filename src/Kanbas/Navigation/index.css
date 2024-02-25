@@ -1,0 +1,56 @@
+.wd-kanbas-navigation {
+    background-color: black;
+    list-style: none;
+    padding: 0px;  margin: 0px;
+    width: 80px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+  }
+  .wd-kanbas-navigation li {
+    padding: 5px;     margin-bottom: 10px;
+    font-size: 0.8em;  text-align: center;
+  }
+  .wd-kanbas-navigation li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0;
+    text-decoration: none;
+    color: white;
+  }
+
+  .wd-kanbas-navigation li a svg{
+    display: block;
+  }
+  .wd-kanbas-navigation li.wd-active {
+    background-color: white;
+  }
+  .wd-kanbas-navigation li.wd-active a {
+    color: red;
+  }
+  .wd-kanbas-navigation a {
+    color: white;
+    text-decoration: none;
+  }
+  .wd-kanbas-navigation a svg {
+    color: red;
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+  .wd-kanbas-navigation a svg.white-icon{
+    color: white;
+  }
+  
+
+  .wd-navigation-logo {
+    max-width: 80%; 
+    max-height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    background-color: black;
+  }
+  
+  

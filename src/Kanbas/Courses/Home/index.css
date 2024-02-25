@@ -1,0 +1,12 @@
+.home-container {
+    width: 100%;
+  }
+  
+  .module-list {
+    flex-grow: 1; /* Takes up the remaining space */
+  }
+  
+  .course-status {
+    flex-basis: 20%; /* Takes up 20% of the container's width */
+  }
+  
