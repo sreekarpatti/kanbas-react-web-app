@@ -10,7 +10,7 @@ import AssignmentEditor from "./Assignments/Editor";
 import './index.css';
 
 
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
   const params = useParams();
   console.log(params);
   const { courseId } = params;
